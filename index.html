@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Home</title>
+</head>
+<body>
+  <main>
+    <div class="wrapper1">
+      <h3 id="classschedule">Semester Ⅱ Schedule</h3>
+      <table aria-labelledby="classschedule">
+        <thead>
+          <tr>
+            <th id="course" scope="col">Course</th>
+            <th id="time" scope="colgroup" colspan="2">Time</th>
+            <th id="room" scope="col">Room</th>
+            <th id="day" scope="col">Day</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th id="english2" scope="rowgroup" rowspan="2">English Ⅱ</th>
+            <td headers="english2 time">9:00</td>
+            <td headers="english2 time">11:00</td>
+            <td headers="english2 room">L2201</td>
+            <td headers="english2 day">Monday</td>
+          </tr>
+          <tr>
+            <td headers="english2 time">9:00</td>
+            <td headers="english2 time">11:00</td>
+            <td headers="english2 room">L2201</td>
+            <td headers="english2 day">Wednesday</th>
+          </tr>
+          <tr>
+            <th id="geography" scope="row">Geography</th>
+            <td headers="geography time">11:00</td>
+            <td headers="geography time">12:45</td>
+            <td headers="geography room">G107</td>
+            <td headers="geography day">Tuesday</td>
+          </tr>
+          <tr>
+            <th id="biology" scope="row">Biology</th>
+            <td headers="biology time">9:00</td>
+            <td headers="biology time">11:00</td>
+            <td headers="biology room">B302</td>
+            <td headers="biology day">Friday</td>
+          </tr>        
+        </tbody>
+        <caption>Fig: Semester 2 Course Schedule</caption>
+      </table>
+    </div>
+    <div class="wrapper2">
+      <h3 id="productchart">Product Comparison Chart</h3>
+      <table aria-labelledby="productchart">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th id="productA" scope="col">ProductA</th>
+            <th id="productB" scope="col">ProductB</th>
+            <th id="productC" scope="col">ProductC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="durability">
+            <th scope="row">Durability</th>
+            <td>10/10</td>
+            <td>5/10</td>
+            <td>7/10</td>
+          </tr>
+          <tr id="desigh">
+            <th scope="row">Desigh</th>
+            <td>3/10</td>
+            <td>8/10</td>
+            <td>7/10</td>
+          </tr>
+          <tr id="usability">
+            <th scope="row">Usability</th>
+            <td>7/10</td>
+            <td>10/10</td>
+            <td>5/10</td>
+          </tr>
+          <tr id="price">
+            <th scope="row">Price</th>
+            <td>9/10</td>
+            <td>7/10</td>
+            <td>3/10</td>
+          </tr>
+        </tbody>
+        <caption>Fig: Comparison of the features between the products</caption>
+      </table>
+    </div>
+    <div class="wrapper3">
+      <h3 id="dinosaursize">Dinosaur Size Classification Table</h3>
+      <table aria-labelledby="dinosaursize">
+        <thead>
+          <tr>
+            <th scope="col">Sizes</th>
+            <th scope="col">Weight</th>
+            <th scope="col">Example Species</th>
+            <th scope="col">Diet</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">S (Small)</th>
+            <td>up to 200 kg</td>
+            <td>
+              <img src="./img/Compsognathus.png" alt="Compsognathus">
+              <p><em>Compsognathus</em></p>
+            </td>
+            <td>Carnivore</td>
+          </tr>
+          <tr>
+            <th scope="row">M (Medium)</th>
+            <td>200 kg – 2 tons</td>
+            <td>
+              <img src="./img/Iguanodon.png" alt="Iguanodon">
+              <p><em>Iguanodon</em></p>
+            </td>
+            <td>Herbivore</td>
+          </tr>
+          <tr>
+            <th scope="row">L (Large)</th>
+            <td>2 – 10 tons</td>
+            <td>
+              <img src="./img/Tyrannosaurusrex.png" alt="Tyrannosaurus rex">
+              <p><em>Tyrannosaurus rex</em></p>
+            </td>
+            <td>Carnivore</td>
+          </tr>
+          <tr>
+            <th scope="row">XL (X-Large)</th>
+            <td>10 tons and over</td>
+            <td>
+              <img src="./img/Argentinosaurus.png" alt="Argentinosaurus">
+              <p><em>Argentinosaurus</em></p>
+            </td>
+            <td>Herbivore</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>

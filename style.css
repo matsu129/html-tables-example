@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main{
+  text-align: center;
+}
+
+/* wrapper1 */
+.wrapper1 h3{
+  text-align: center;
+  font-weight: bold;
+  color: rgb(110, 108, 108);
+  margin: 20px;
+}
+.wrapper1 table{
+  border-spacing: 0;
+  border: 1px solid lightgray;
+  text-align: center;
+  border-radius:10px;
+  width: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+.wrapper1 caption{
+  padding: 10px;
+  caption-side: bottom;
+  font-size:15px;
+  font-style: italic;
+}
+.wrapper1 table td,
+.wrapper1 table th {
+  text-align: center;
+  padding: 20px;
+}
+.wrapper1 table td {
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+.wrapper1 table th {
+  border-right: 1px solid lightgray;
+}
+#english2,
+#geography,
+#biology{
+  border-top: 1px solid lightgray;
+}
+.wrapper1 table td:last-child {
+  border-right: none;
+}
+.wrapper1 table th:last-child {
+  border-right: none;
+  border-bottom: none;
+}
+.wrapper1 thead tr {
+  background-color: rgb(22, 93, 246);
+  color:white
+}
+.wrapper1 tbody th{
+  color: rgb(22, 93, 246);
+}
+.wrapper1 tbody td{
+  color: rgb(110, 108, 108);
+}
+
+/* wrapper2 */
+.wrapper2{
+  margin-top: 200px;
+}
+.wrapper2 table{
+  border-spacing: 0;
+  text-align: center;
+  width: 50%;
+  overflow: hidden;
+  margin:auto;
+}
+.wrapper2 caption{
+  padding: 20px;
+  caption-side: bottom;
+  font-size:15px;
+  font-style: italic;
+}
+.wrapper2 table td,
+.wrapper2 table th {
+  text-align: center;
+  padding: 20px;
+}
+.wrapper2 h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 20px;
+}
+.wrapper2 thead th{
+  border-top: 1px solid rgb(100, 139, 247);
+  border-right: 1px solid rgb(100, 139, 247);
+  border-bottom: 1px solid rgb(100, 139, 247);
+  font-weight: bold;
+  text-align: center;
+}
+#productA,
+#productB,
+#productC,
+#desigh,
+#price{
+  background-color: rgb(180, 203, 236);
+}
+#durability,
+#usability{
+  background-color: rgb(221, 234, 252);
+}
+.wrapper2 thead th:first-child{
+  border-top:none;
+}
+.wrapper2 td{
+  border-right: 1px solid rgb(100, 139, 247);
+  border-bottom: 1px solid rgb(100, 139, 247);
+}
+.wrapper2 tbody th{
+  text-align: left;
+  padding-right: 100px;
+  border-right: 1px solid rgb(100, 139, 247);
+  border-bottom: 1px solid rgb(100, 139, 247);
+  border-left: 1px solid rgb(100, 139, 247);
+}
+
+/* wrapper3 */
+.wrapper3{
+  margin-top: 200px;
+  margin-bottom: 300px;
+}
+.wrapper3 table{
+  border-spacing: 0;
+  border: 1px solid lightgray;
+  text-align: center;
+  border-radius:10px;
+  width: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+.wrapper3 h3{
+  width: 50%;
+  padding: auto;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(252, 213, 142);
+  margin: auto;
+  margin-bottom: 5px;
+}
+.wrapper3 table td,
+.wrapper3 table th {
+  text-align: center;
+  padding: 20px;
+}
+.wrapper3 img {
+  max-height:5vw;
+  width:auto;
+}
+.wrapper3 table td,
+.wrapper3 table th {
+  text-align: center;
+  padding: 20px;
+}
+.wrapper3 table td {
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+.wrapper3 table td:last-child,
+.wrapper3 table th:last-child{
+  border-right: none;
+}
+.wrapper3 table th {
+  border-right: 1px solid lightgray;
+}
+.wrapper3 tbody th{
+  border-top: 1px solid lightgray;
+}
